@@ -1,0 +1,12 @@
+- sandbox structure
+
+  - 01_exe
+    - src
+    - build
+  - 02_static_lib
+    - src
+    - build
+  - 03_dynamic_lib
+    - src
+    - build
+  - ...
