@@ -10,3 +10,16 @@
     - src
     - build
   - ...
+
+
+01_exe
+  - an executable from a single file
+
+02_lib
+  - an executable, which consumes library files
+  - library is built as static library
+  - no CMakeLists.txt file the library (yet ??)
+
+03_lib_object
+  - use OBJECT option for a library, which is used to build both
+    static and shared library
