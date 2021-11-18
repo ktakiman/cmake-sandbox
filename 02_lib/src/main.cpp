@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "fibonacci/fibonacci.h"
+#include "fibonacci.h"
 
 int main(int argn, const char* argv[]) {
   if (argn == 2) {
@@ -18,6 +18,4 @@ int main(int argn, const char* argv[]) {
   std::cout << "usage: $ compute n" << std::endl;
   return 1;
 }
-#include "fibonacci/fibonacci.h"
-
 

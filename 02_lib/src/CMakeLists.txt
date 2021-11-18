@@ -6,8 +6,8 @@ project(Compute LANGUAGES CXX)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_library(fibonacci STATIC
-  fibonacci/fibonacci.h
-  fibonacci/fibonacci.cpp
+  fibonacci.h
+  fibonacci.cpp
 )
 
 # first arg determines the generated file name
