@@ -23,3 +23,6 @@
 03_lib_object
   - use OBJECT option for a library, which is used to build both
     static and shared library
+
+04_option
+  - use 'option' to configure library build options
